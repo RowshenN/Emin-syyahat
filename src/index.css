@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppins-light;
+    /* 300 */
+    src: url("./fonts/Poppins-Light.ttf");
+  }
+  @font-face {
+    font-family: poppins-regular;
+    /* 400 */
+    src: url("./fonts/Poppins-Regular.ttf");
+  }
+  @font-face {
+    font-family: poppins-medium; 
+    /* 500 */
+    src: url("./fonts/Poppins-Medium.ttf");
+  }
+  @font-face {
+    font-family: poppins-semibold;
+    /* 600 */
+    src: url("./fonts/Poppins-SemiBold.ttf");
+  }
+  @font-face {
+    font-family: poppins-bold;
+    /* 700 */
+    src: url("./fonts/Poppins-Bold.ttf");
+  }
+
+
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none !important;
+  }
